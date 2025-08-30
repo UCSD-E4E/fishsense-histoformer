@@ -154,7 +154,7 @@ class Generator(nn.Module):
         g = self.conv_g(x)
         o = self.conv_o(x)
         c = f * c + i * g
-        h = o * F.tanh(c)
+        h = o * torch.tanh(c)
 
         h = self.det_conv(h)
         x = torch.cat((input, h),1)
