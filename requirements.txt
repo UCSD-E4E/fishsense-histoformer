@@ -1,7 +1,7 @@
 # Histoformer-PQR requirements
 # Usage: pip install -r requirements.txt
 
-numpy==1.16.6
+numpy==1.22.0
 matplotlib==3.3.2
 scikit-image
 opencv-python
